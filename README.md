@@ -23,7 +23,7 @@ The application features few menus from which user can manage some basic messagi
 - Delete user = delete signed in user
 - Exit = log out to and return back to main menu
 
-*In Inbox and Sent menu, user can delete any message of their choice*
+*In submenus "Inbox" and "Sent", user can delete any message of their choosing*
 
 ## Used tools:
 - C# .Net7
