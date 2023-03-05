@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\DB_Projekt.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\DB_Projekt.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0-preview.1.23110.8" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+        <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0-preview.1.23110.8" />
+        <PackageReference Include="System.Text.Encoding" Version="4.3.0" />
+    </ItemGroup>
+
+</Project>

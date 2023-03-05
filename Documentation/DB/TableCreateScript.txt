@@ -1,0 +1,21 @@
+﻿use messenger;
+
+create table usr (
+	id_us int identity(1,1) primary key,
+	username nvarchar(50) not null,
+	pass nvarchar(4000) not null
+);
+
+create table msg (
+	id_ms int identity(1,1) primary key,
+	title nvarchar(54) not null,
+	contents nvarchar(4000) not null,
+	timesent datetime not null
+);
+
+create table link (
+	id_li int identity(1,1) primary key,
+	recipient int foreign key references usr(id_us) not null,
+	sender int foreign key references usr(id_us) not null,
+	msg int foreign key references msg(id_ms) not null
+);

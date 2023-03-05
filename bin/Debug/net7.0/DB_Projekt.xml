@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DB_Projekt</name>
+    </assembly>
+    <members>
+        <member name="M:DB_Projekt.DatabaseManager.setConectionDetails(System.String,System.String,System.String,System.String,System.Boolean,System.Int32)">
+            <summary>
+            Set DB connection details
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:DB_Projekt.DatabaseManager.GetSqlConnection" -->
+        <!-- Badly formed XML comment ignored for member "M:DB_Projekt.DatabaseManager.Exists(System.String,System.String,System.String)" -->
+        <member name="M:DB_Projekt.Menu.MainMenu">
+            <summary>
+            Main menu - switches to a different option based on user input
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Menu.UserLogin">
+            <summary>
+            Login - checks if username and password match in DB
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Menu.UserRegister">
+            <summary>
+            Register user - Inserts new user into DB
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Menu.UserMenu">
+            <summary>
+            User menu - switches to a different submenu based on user input
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Menu.Inbox">
+            <summary>
+            Calls RecievedMsgs() from Message.cs
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Menu.Sent">
+            <summary>
+            Calls SentMsgs() from Message.cs
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Menu.NewMessage">
+            <summary>
+            Sent out new message
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Menu.Delete">
+            <summary>
+            Delete logged in user
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Message.SoftWrapPrint(System.String,System.String)">
+            <summary>
+            Soft wraps text so it looks good
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Message.SendMessage(System.String,System.String,System.String)">
+            <summary>
+            Insert new message into DB
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Message.RecievedMsgs">
+            <summary>
+            Print out all recieved messages
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Message.SentMsgs">
+            <summary>
+            Print out all sent messages
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.PasswordEncryption.Enrypt(System.String)">
+            <summary>
+            Encrypts string
+            </summary>
+            <returns>
+            Encrypted string of characters
+            </returns>
+        </member>
+        <member name="M:DB_Projekt.PasswordEncryption.Decrypt(System.String)">
+            <summary>
+            Decrypts string
+            </summary>
+            <returns>
+            Decrypted string of characters
+            </returns>
+        </member>
+        <member name="M:DB_Projekt.Print.ChooseClr(System.String)">
+            <summary>
+            Color switcher
+            </summary>
+            <returns>
+            Changes color of text in console
+            </returns>
+        </member>
+        <member name="M:DB_Projekt.Print.Clear">
+            <summary>
+            Modified Console.Clear() method so there is always a custom text on top
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Print.WriteLine(System.String,System.String)">
+            <summary>
+            Modified Console.WriteLine() - Make the printed string temporarily different color
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.Print.Write(System.String,System.String)">
+            <summary>
+            Modified Console.Write() - Make the printed string temporarily different color
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.User.RegisterUser(System.String,System.String)">
+            <summary>
+            Insert new user into DB
+            </summary>
+        </member>
+        <member name="M:DB_Projekt.User.LoginUser(System.String,System.String)">
+            <summary>
+            Check if username and password match in DB
+            </summary>
+            <returns>
+            true / false
+            </returns>
+        </member>
+        <member name="M:DB_Projekt.User.CheckPass(System.String)">
+            <summary>
+            Check if password matches
+            </summary>
+            Check password (i know i have the similar thing in LoginUser(), however, IDC!)
+        </member>
+        <member name="M:DB_Projekt.User.DeleteUser">
+            <summary>
+            Remove user from DB
+            </summary>
+        </member>
+    </members>
+</doc>
