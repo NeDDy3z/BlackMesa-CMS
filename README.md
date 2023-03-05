@@ -11,7 +11,7 @@ The name Black Mesa - CMS (Central Messaging System) suggest it is used by the "
 
 The application features few menus from which user can manage some basic messaging tasks.
 
-**[Main menu]** = 3 options
+**Main menu** = 3 options
 - Login = login into existing user
 - Register = register new user
 - Exit = exit the application
